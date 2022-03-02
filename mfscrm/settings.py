@@ -42,7 +42,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'MaverickFoodServices.urls'
+ROOT_URLCONF = 'mfscrm.urls'
 
 TEMPLATES = [
     {
