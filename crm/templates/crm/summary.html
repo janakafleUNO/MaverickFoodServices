@@ -90,7 +90,7 @@
             {% for product in products %}
                 <tr>
                     <td>{{ product.product }}</td>
-                    <td>{{ product.p_description }}</td>
+                    <td>{{ product.description }}</td>
                     <td>{{ product.quantity|intcomma }}</td>
                     <td>{{ product.pickup_time }}</td>
                     <td>{{ product.charge|floatformat:2 }}</td>
